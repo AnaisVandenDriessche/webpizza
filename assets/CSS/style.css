@@ -96,7 +96,7 @@
                 text-align: justify;
             }
 
-            .card .btn {
+            /*.card .btn {
                 background-color: #e82208;
                 border-radius: 0;
                 border: none;
@@ -107,25 +107,50 @@
             }
             .card .btn:hover {
                 background-color: #fbd708;
-            }
+            }*/
         
             .form-control{
                 background-color: #333333;
                 border-radius: 0;
             }
 
-            .style5{
+            .jumbotron{
+                top: 205px;
                 position: relative;
-                width: 100%;
+                color: #FFFFFF;
+                border-radius: 0;
+                background-color: rgba(0, 0, 0, 0.3);
+                text-transform: uppercase;
                 text-align: center;
-                vertical-align: center;
-                top: 45%;
-                font-size:30px;
-                color: white;
             }
 
-            .btn btn-warning{
-                    position: relative;
-                    vertical-align: center;
+            .jumbotron .btn{
+                font-size: 90%;
             }
+
+            .btn{
+                
+                color: black;
+            }
+
+            .jumbotron .lead{
+                font-size: 3rem;
+                font-weight: 400;
+                letter-spacing: 2px;
+                line-height: 3.5rem;
+            }
+
+            .btn.btn-yellow {
+                background-color: yellow;
+                border-radius: 0;
+                border: yellow;
+                font-size: 14px;
+                 
+                -webkit-transition: all .6s;
+                transition: all .6s;
+            }
+            .btn.btn-yellow :hover {
+                background-color: #fbd708;
+            }
+
 
